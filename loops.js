@@ -18,7 +18,7 @@ function whileLoop(n) {
     return "done";
   }
   
-  // if (num === 0) { rdfkadjf;ladkjf;las}
+  // if (num === 0) { condition}
 function doWhileLoop(num){
   var i = 0;
   function incrementVariable(){
@@ -28,5 +28,5 @@ function doWhileLoop(num){
    
    do {
      console.log("I run once regardless.");
-   }  while ((num=0) && incrementVariable() < num);
+   }  while (incrementVariable() < num);
 }
