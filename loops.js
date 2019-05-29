@@ -18,6 +18,7 @@ function whileLoop(n) {
     return "done";
   }
   
+  // if (num === 0) { rdfkadjf;ladkjf;las}
 function doWhileLoop(num){
   var i = 0;
   function incrementVariable(){
